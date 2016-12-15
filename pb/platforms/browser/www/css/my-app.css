@@ -1,4 +1,90 @@
 .darshan {
-    max-width: 200px;
-    max-height: 120px;
+    max-width: 375px;
+    max-height: 300px;
+}
+
+.item-content {
+  display: block !important;
+}
+
+.item-inner:after {
+  display: none !important;
+}
+
+.item-inner {
+  margin-left: 0px;
+}
+
+.item-text {
+  text-align: center;
+  color: tomato !important;
+}
+
+.announcements-list .item-content{
+  border-bottom: 1px solid lightgrey;
+}
+
+.ann {
+  height: 40px;
+}
+
+.kirtan {
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#tab2 .item-content {
+  border-bottom: 1px solid lightgrey;
+}
+
+#tab2 .ann-date {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: brown;
+  font-size: 12px;
+  margin-top: -35px;
+}
+
+#tab2 .ann-message {
+  margin-left: 60px;
+  color: grey;
+  position: absolute;
+  font-size: 11px;
+}
+
+#tab3 .item-content {
+  border-bottom: 1px solid lightgrey;
+}
+
+#tab3 .ann-date {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: brown;
+  font-size: 12px;
+  margin-top: -35px;
+}
+
+#tab3 .ann-message {
+  margin-left: 60px;
+  color: grey;
+  position: absolute;
+  font-size: 11px;
+}
+
+.ann-message {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: grey;
+  font-size: 11px;
+}
+
+.ann-date {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: brown;
+  font-size: 12px;
 }

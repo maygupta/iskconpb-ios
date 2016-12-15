@@ -1,4 +1,21 @@
 .darshan {
-    max-width: 200px;
-    max-height: 120px;
+    max-width: 375px;
+    max-height: 300px;
+}
+
+.item-content {
+  display: block !important;
+}
+
+.item-inner:after {
+  display: none !important;
+}
+
+.item-inner {
+  margin-left: 0px;
+}
+
+.item-text {
+  text-align: center;
+  color: tomato !important;
 }
